@@ -27,6 +27,8 @@ El observer se encarga de definir una relación de uno a muchos, cuan do un obje
 # Strategy
 Este patrón define un conjunto de algoritmos que se pueden usar indistintamente, el usuario decide cuál algoritmo le gustaría usar.
 # Data Acces Object (DAO)
+DAO nos permite separar la lógica de acceso de datos de los objetos, de tal forma que el patrón encapsula toda la lógica de acceso de datos al resto de la aplicación.
 # Dependency Injection
+Tiene como objetivo tomar la responsabilidad de crear las instancias de las clases que otro objeto necesita y suministrárselo para que esta clase los pueda utilizar.
 # Model View Controller (MVC)
 El modelo - vista - controlador comienza con una petición, esta llega al controlador el cual decide como usar los modelos, para recuperar los datos de una base de datos los cuales se agregan a una estructura de datos y esta pasa a una vista que muestra la página solicidada.
